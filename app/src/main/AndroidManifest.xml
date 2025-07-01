@@ -4,6 +4,7 @@
 
     <!-- 👇 Declare camera permission -->
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- 👇 Tell Play Store the camera is optional (important for ChromeOS / tablets) -->
     <uses-feature android:name="android.hardware.camera" android:required="false" />
